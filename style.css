@@ -1,0 +1,20 @@
+body {
+    font-family: Arial;
+    Color: black;
+    font-size: 20px;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:blueviolet;
+    font-size: 50px;
+    text-align: center;
+}
+
+.banniere {
+    padding: 100px;
+    background: url(Images/Banniere.jpg);
+    background-size: cover;
+    background-origin: initial;
+}
