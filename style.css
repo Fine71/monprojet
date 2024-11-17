@@ -1,6 +1,7 @@
 body {
-    font-family: Arial;
-    Color: black;
+    background-color: white; /*couleur du fond de la page web*/
+    font-family: sans-serif ;
+    Color: black; /*Couleur de la police de la page*/
     font-size: 20px;
     margin: 0;
 }
@@ -8,13 +9,40 @@ body {
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:blueviolet;
+    font-size: 80px;
+    text-align: left;
+}
+
+h2 {
     font-size: 50px;
+    color: rgb(0, 106, 255);
     text-align: center;
 }
 
 .banniere {
     padding: 100px;
-    background: url(Images/Banniere.jpg);
+    background-image: url(Images/banniere2.webp);
     background-size: cover;
-    background-origin: initial;
+}
+
+/* définitions du nombre de colonnes de mon tableau avec leurs largeurs*/
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.element {
+    border: 2px #EB5353 solid;
+    padding: 10px;
+    background-color: #f6a2a2;
+    box-shadow: 6px 6px 0px rgb(145, 144, 144);
+}
+
+.box {
+    margin-right: 1750px;
 }
